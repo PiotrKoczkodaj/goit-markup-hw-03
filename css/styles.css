@@ -1,3 +1,4 @@
+
 body {
   font-family: var(--main-font);
   color: var(--main-color);
@@ -93,13 +94,16 @@ ul
 {
   color: var(--mark-color);
 }
-.first-nav-item:hover {
+.first-nav-item:hover
+{
   color: var(--mark-color);
 }
-.first-nav-item:focus {
+.first-nav-item:focus 
+{
   color: var(--mark-color);
 }
-.header-mail {
+.header-mail 
+{
   text-decoration: none;
   color: var(--third-color);
   font-weight: 500;
@@ -118,22 +122,24 @@ ul
 .header-mail:focus {
   color: var(--mark-color);
 }
-.header-tel {
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.142;
-  letter-spacing: 0.02em;
-  color: var(--third-color);
-  margin-right: 227px;
+.header-tel 
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: var(--third-color);
+    margin-right: 227px;
     margin-top: 32px;
     margin-bottom: 31px;
-
 }
-.header-tel:hover {
+.header-tel:hover 
+{
   color: var(--mark-color);
 }
-.header-tel:focus {
+.header-tel:focus 
+{
   color: var(--mark-color);
 }
 /*=======================================END OF HEADER==================================================*/
@@ -166,7 +172,8 @@ ul
   width: 200px;
   height: 50px;
 }
-.second-block-list-item .second-block-list-item-title {
+.second-block-list-item .second-block-list-item-title 
+{
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -174,13 +181,15 @@ ul
   text-transform: uppercase;
   color: var(--main-color);
 }
-.second-block-list-item {
+.second-block-list-item 
+{
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--third-color);
 }
-.second-header {
+.second-header 
+{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
@@ -188,21 +197,24 @@ ul
   text-align: center;
   color: var(--main-color);
 }
-.third-header {
+.third-header 
+{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   letter-spacing: 0.03em;
   text-align: center;
 }
-.gallery-list-item-figcaption-bold{
+.gallery-list-item-figcaption-bold
+{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.gallery-list-item-figcaption-paragraph {
+.gallery-list-item-figcaption-paragraph 
+{
   font-style: normal;
   font-size: 16px;
   line-height: 1.875;
@@ -212,7 +224,8 @@ ul
 }
 /*===================================END OF MAIN CONTAINER============================================*/
 
-.logo-footer {
+.logo-footer
+{
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
@@ -259,13 +272,15 @@ color: var(--mark-color);
 .footer-list-item-mail-link:hover {
   color: var(--mark-color);
 }
-.footer-list-item-mail-link:focus {
+.footer-list-item-mail-link:focus 
+{
   color: var(--mark-color);
 }
 
 /*=======================================PORTFOLIO======================================================*/
 
-.buttons-list .button-item {
+.buttons-list .button-item 
+{
   background-color: var(--white-color);
   font-size: 16px;
   line-height: 1.625;
@@ -273,19 +288,22 @@ color: var(--mark-color);
   letter-spacing: 0.03em;
   font-weight: 500;
 }
-.button-item:hover {
+.button-item:hover 
+{
   background-color: var(--mark-color);
   color: var(--main-color);
   cursor: pointer;
   color: var(--white-color)
 }
-.button-item:focus {
+.button-item:focus 
+{
   background-color: var(--mark-color);
   color: var(--main-color);
   cursor: pointer;
   color: var(--white-color)
 }
-.portfolio-gallery-item {
+.portfolio-gallery-item 
+{
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -298,7 +316,8 @@ color: var(--mark-color);
   line-height: 2;
   letter-spacing: 0.06em; 
 }
-.portfolio-gallery-item-paragraph {
+.portfolio-gallery-item-paragraph 
+{
 font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
