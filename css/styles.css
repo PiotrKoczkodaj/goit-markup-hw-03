@@ -11,6 +11,7 @@ body {
   --third-color: #757575;
   --background-color: #2f303a;
   --white-color: #ffffff;
+  --third-block-background-color: #F5F4FA;
 }
 .header-part {
   background-color: var(--white-color);
@@ -37,7 +38,7 @@ ul
   padding-left: 452px auto;
 }
 .third-block {
-  background-color: var(--white-color);
+  background-color: var(--third-block-background-color);
 }
 .end-of-page {
   background-color: var(--background-color);
@@ -232,13 +233,52 @@ ul
   color: var(--main-color);
   margin-top: 94px;
 }
+.first-gallery-index
+{
+  display: flex;
+  margin-top: 50px;
+  list-style-type: none;
+}
+.first-gallery-index-item-first-child
+{
+  margin-left: 215px;
+}
+.first-gallery-index-item
+{
+  margin-left: 30px;
+}
 .third-header 
 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   letter-spacing: 0.03em;
-  text-align: center;
+  margin-left: 695px;
+  padding-top: 94px;
+  
+}
+.gallery-list 
+{
+  display: flex;
+  list-style-type: none;
+} 
+.gallery-list-item-first-child{
+margin-left: 215px;
+}
+.gallery-list-item-last-child
+{
+  padding-right: 215px;
+}
+.gallery-list-item-figcaption
+{
+  background-color: var(--white-color);
+  padding-top: 30px;
+  
+
+}
+.gallery-workers
+{
+  background-color: var(--white-color)
 }
 .gallery-list-item-figcaption-bold
 {
@@ -247,6 +287,10 @@ ul
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-left: 99px;
+  padding-bottom: 30px;
+  
+
 }
 .gallery-list-item-figcaption-paragraph 
 {
@@ -256,6 +300,7 @@ ul
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--third-color);
+  padding-bottom: 10px;
 }
 /*===================================END OF MAIN CONTAINER============================================*/
 
@@ -267,9 +312,18 @@ ul
   letter-spacing: 0.03em;
   font-family: var(--secondary-font);
   text-decoration: none;
-  color: var(--white-color)
+  color: var(--white-color);
+  display: flex;
+  margin-left: 215px;
+  padding-top: 60px;
+  margin-bottom: 20px;
+  
 }
-
+.footer-list
+{
+  margin-left: 215px;
+  height: 100px;
+}
 .footer-list-item 
 {
   font-size: 14px;
@@ -286,6 +340,7 @@ ul
     list-style-type: none;
     text-decoration: none;
     color: var(--third-color);
+    padding-bottom: 60px;
 }
 .footer-list-item-tel-link:hover
 {
@@ -385,6 +440,18 @@ font-family: var(--main-font);
 .section-main
 {
     width: 1600px;
-   
-    
+      
+}
+.section-footer
+{
+ width: 1600px;
+}
+.third-section
+{
+  width: 1600px;
+}
+.end-of-page
+{
+  margin-top: 94px;
+  
 }
