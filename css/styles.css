@@ -1,4 +1,4 @@
-*:not(.button-item)
+*
 {
   margin: 0 auto;
   padding: 0;
@@ -467,6 +467,7 @@ list-style-type: none;
   font-weight: 500;
   margin-left: 8px;
   border-color: var(--third-block-background-color);
+
   
   
 }
