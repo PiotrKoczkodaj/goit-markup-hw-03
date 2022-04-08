@@ -1,4 +1,4 @@
-*
+*:not(.button-item)
 {
   margin: 0 auto;
   padding: 0;
@@ -357,9 +357,20 @@ ul
   margin-bottom: 0;
   margin-left: 215px;
   margin-right: 0;
+  display: block;
+  padding-top: 60px;
   
 
 
+}
+.footer-list-item-paragraph
+{
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    list-style-type: none;
+    color: var(--white-color);
+    margin-top: 20px;
 }
 
 .footer-list-item 
@@ -370,6 +381,8 @@ ul
   list-style-type: none;
   color: var(--white-color);
   
+
+  
 }
 .footer-list-item-tel-link
 {
@@ -379,6 +392,7 @@ ul
     list-style-type: none;
     text-decoration: none;
     color: var(--third-color);
+    padding-bottom: 60px;
     
 }
 
@@ -400,9 +414,13 @@ color: var(--mark-color);
   color: var(--third-color);
   
 }
+.footer-list-item-paragraph
+{
+margin-top: 20px;
+}
 .footer-list
 {
-margin-top: 111px;
+margin-left: 215px;
 }
 .footer-list-item-mail-link:hover {
   color: var(--mark-color);
@@ -416,9 +434,8 @@ margin-top: 111px;
 
 .buttons-list
 {
-  display: flex;
-  list-style-type: none;
-  margin-top: 100px;
+display: flex;
+list-style-type: none;
 }
 .button-item-first-child
 {
@@ -430,9 +447,8 @@ margin-top: 111px;
     font-weight: 500;
     margin-left: 510px;
     border-color: var(--third-block-background-color);
-    
-  
 }
+
 .button-item-first-child:hover
 {
   color: var(--mark-color);
@@ -451,6 +467,7 @@ margin-top: 111px;
   font-weight: 500;
   margin-left: 8px;
   border-color: var(--third-block-background-color);
+  
   
 }
 .button-item:hover 
@@ -475,18 +492,23 @@ margin-top: 111px;
   margin-top: 56px;
   margin-left: 215px;
   margin-right: 215px;
+
   
 }
 .portfolio-images-last
 {
  margin-right: 0;
+ margin-left: 0;
+ margin-top: 30px;
 }
 .portfolio-images
 {
   margin-right: 30px;
+  margin-left: 0px;
+  margin-top: 30px;
 }
 .portfolio-gallery-item 
-{
+{ 
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -495,6 +517,10 @@ margin-top: 111px;
   border-left: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE; 
 }
+.photo
+{
+  margin-bottom: 20px;
+}
 .portfolio-gallery-item-bold
 {
   font-weight: 700;
@@ -502,7 +528,8 @@ margin-top: 111px;
   line-height: 2;
   letter-spacing: 0.06em;
   margin-left: 24px;
-  padding-right: 24px;
+  
+
 }
 .portfolio-gallery-item-paragraph 
 {
@@ -513,6 +540,7 @@ color: var(--third-color);
 font-weight: 400;
 font-family: var(--main-font);
 margin-bottom: 50px;
+margin-left: 24px;
 }
 .footer-list-item-mail-link{
   text-decoration-line: underline;
@@ -554,8 +582,9 @@ margin-bottom: 50px;
   margin: 0;
 }
 .end-of-page
-{
-  background-color: var(--background-color) 
+{ height: 252px;
+  background-color: var(--background-color) ;
+  margin-top: 94px;
 }
 .portfolio-body-section
 {
