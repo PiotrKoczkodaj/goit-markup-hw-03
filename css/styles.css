@@ -6,8 +6,9 @@
 body {
   font-family: var(--main-font);
   color: var(--main-color);
-  width: 1600px;
+  max-width: 1600px;
   padding: 0;
+  margin: 0 auto;
 
 
   
@@ -77,6 +78,7 @@ ul
   margin-bottom: 24px;
   display: flex;
   margin-right: 0;
+  margin-left: 0;
   
 }
  .logo-span {
@@ -86,6 +88,11 @@ ul
 {
   display: flex;
   
+}
+.first-nav-portfolio
+{
+  display: flex;
+  justify-content: center;
 }
 .first-nav-item {
   font-weight: 500;
@@ -136,10 +143,11 @@ ul
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: var(--third-color);
-  margin-right: 50px;
-  margin-left: auto;
   margin-top: 32px;
   margin-bottom: 31px;
+  margin-left: 371px;
+  margin-right: 50px;
+
 }
 .header-mail:hover {
   color: var(--mark-color);
@@ -157,7 +165,8 @@ ul
     color: var(--third-color);
     margin-top: 32px;
     margin-bottom: 31px;
-    margin-left: 0%;
+    margin-left: 0;
+    margin-right: 0;
 }
 .header-tel:hover 
 {
@@ -475,11 +484,21 @@ margin-left: 215px;
 }
 
 /*=======================================PORTFOLIO======================================================*/
-
+.button-item-list-first-child
+{
+  margin-left: 510px;
+  margin-right: 0;
+}
+.button-item-list
+{
+  margin-left: 8px;
+  margin-right: 0;
+}
 .buttons-list
 {
 display: flex;
 list-style-type: none;
+margin-top: 100px;
 }
 .button-item-first-child
 {
@@ -489,7 +508,6 @@ list-style-type: none;
     text-align: center;
     letter-spacing: 0.03em;
     font-weight: 500;
-    margin-left: 510px;
     border-color: var(--third-block-background-color);
 }
 
@@ -535,14 +553,12 @@ list-style-type: none;
   flex-wrap:wrap;
   list-style-type: none;
   margin-top: 56px;
-  margin-left: 215px;
-  margin-right: 215px;
+  flex-basis: calc(100% / 3- 30px);
 
-  
 }
 .portfolio-images-last
 {
- margin-right: 0;
+ margin-right: 30;
  margin-left: 0;
  margin-top: 30px;
 }
@@ -561,10 +577,21 @@ list-style-type: none;
   border-right: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE; 
+  
+}
+
+.photo-four
+{
+  margin-left: 0;
+}
+ .portfolio-gallery .portfolio-images .photo-two
+{
+  margin-right: 0;
 }
 .photo
 {
-  margin-bottom: 20px;
+  
+  margin-left: 30px;
 }
 .portfolio-gallery-item-bold
 {
@@ -636,13 +663,19 @@ margin-left: 24px;
   background-color: var(--background-color) ;
   
 }
-.portfolio-body-section
+.portfolio-header-section
 {
   border-bottom: 1px solid #ECECEC;
   width: 1600px;
-  height: 80px;
+  display: flex;
+  align-items: center;
 }
-
+.first-nav-portfolio
+{
+  display: flex;
+  margin-left: 93px;
+  margin-right: 0;
+}
 .first-nav-portfolio .first-nav-item-portfolio
 {
     font-weight: 500;
@@ -651,8 +684,8 @@ margin-left: 24px;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--main-color);
-    margin-top: -32px;
-     margin-bottom: -32px;
+    
+
   
 }
 .first-nav-item-portfolio-first-child
@@ -662,9 +695,7 @@ margin-left: 24px;
       line-height: 1.142;
       letter-spacing: 0.02em;
       text-decoration: none;
-      color: var(--main-color);
-      margin-left: 93px;
-    
+      color: var(--main-color);   
 }
 .portfolio-body-section
 {
