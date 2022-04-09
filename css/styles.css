@@ -312,6 +312,7 @@ ul
   padding-top: 94px;
   display: flex;
  justify-content: center;
+ 
   
 }
 .container .third-section
@@ -319,9 +320,15 @@ ul
   background-color: var(--third-block-background-color)
 
 }
-.gallery-list-item
+.gallery-list-item-last-child
 {
-  margin-left: 30px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.gallery-list-item-first-child
+{
+  margin-left: 0;
+  margin-right: 0;
 }
 .gallery-list 
 {
@@ -329,16 +336,20 @@ ul
   list-style-type: none;
   margin-top: 50px;
   margin-bottom: 94px;
-  margin-left: 215px;
-  margin-right: 215px;
-
+  justify-content: center;
   
 } 
-.gallery-list-item-last-child
+
+.second-block
 {
-  margin-right: 215px;
-  margin-left: 30px;
+  width: 1200px;
 }
+.gallery-list-item
+{
+margin-left: 0;
+margin-right: 0;
+}
+
 .gallery-list-item-figcaption
 {
   background-color: var(--white-color);
@@ -363,6 +374,7 @@ ul
   
 
 }
+
 .gallery-list-item-figcaption-paragraph 
 {
   font-style: normal;
