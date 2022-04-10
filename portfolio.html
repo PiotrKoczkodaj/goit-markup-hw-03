@@ -16,26 +16,23 @@
 <body>
  <!-----------------------------------------HEADER----------------------------------------------->
  
- <header>
-     <div class="container">
-         <section class="portfolio-header-section">
-     <a class="logo" href="index.html"><span class="logo-span">Web</span>Studio</a>
-     
-     <nav class="first-nav-portfolio">
-                <a class="first-nav-item-portfolio-first-child" href="index.html">Agencja</a>
-                <a class="first-nav-item-portfolio"  href="portfolio.html">Portfolio</a>
-                <a  class="first-nav-item-portfolio"  href="#">Kontakt</a>
-    </nav>
-     
-    <!-----------------------------------------KONTAKT------------------------------------>
-     
-        <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="header-tel" href="tel:+48111111111">+48 111 111 111</a>
-    </section>
-    </div>
- </header>
+    <header class="header-part">
+        <div class="container">
+            <a class="logo" href="index.html"><span class="logo-span">Web</span>Studio</a>
+    
+            <nav class="first-nav">
+                <a class="first-nav-item-first-child" class="first-child" href="index.html">Agencja</a>
+                <a class="first-nav-item" href="portfolio.html">Portfolio</a>
+                <a class="first-nav-item" href="#">Kontakt</a>
+            </nav>
+    
+            <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="header-tel" href="tel:+48111111111">+48 111 111 111</a>
+            </section>
+        </div>
+    </header>
 <!-----------------------------------------MAIN-------------------------------------->
-<main>
+<main class="main-page-portfolio">
     <div class="container">
         <section class="second-section-portfolio">
     <ul class="buttons-list">
@@ -45,11 +42,13 @@
         <li class="button-item-list"><button class="button-item" type="button">Dizajn</button></li>
         <li class="button-item-list"><button class="button-item" type="button">Marketing</button></li>
     </ul>
+    </div>
 <!--GALERIA-->
+<div class="container">
 <ul class="portfolio-gallery">
     <li class="portfolio-images">
         <figure>
-            <img src="images/img8.jpg" alt="monitor" width="370" height="294">
+            <img  src="images/img8.jpg" alt="monitor" width="370" height="294">
             <figcaption class="portfolio-gallery-item">
                 <b class="portfolio-gallery-item-bold">Technocrack</b>
                <p class="portfolio-gallery-item-paragraph">Strona internetowa</p>
@@ -58,7 +57,7 @@
     </li>
     <li class="portfolio-images">
         <figure>
-            <img src="images/img9.jpg" alt="koszykarz z piłką w górze" width="370" height="294">
+            <img  src="images/img9.jpg" alt="koszykarz z piłką w górze" width="370" height="294">
             <figcaption class="portfolio-gallery-item">
                 <b class="portfolio-gallery-item-bold">Grafika New Orlean vs Golden Star</b>
                 <p class="portfolio-gallery-item-paragraph">Dizajn</p>
@@ -67,7 +66,7 @@
     </li>
     <li class="portfolio-images-last">
         <figure>
-        <img src="images/img10.jpg" alt="zdjęcie rekina" width="370" height="294">
+        <img  src="images/img10.jpg" alt="zdjęcie rekina" width="370" height="294">
         <figcaption class="portfolio-gallery-item">
            <b class="portfolio-gallery-item-bold">Restauracja Seafood</b>
            <p class="portfolio-gallery-item-paragraph">Aplikacja</p>
@@ -85,7 +84,7 @@
 </li>
     <li class="portfolio-images">
         <figure>
-            <img src="images/img12.jpg" alt="kartonowe pudełka"  width="370" height="294">
+            <img class="photo" src="images/img12.jpg" alt="kartonowe pudełka"  width="370" height="294">
             <figcaption class="portfolio-gallery-item">
                 <b class="portfolio-gallery-item-bold">Projekt Boxes</b>
                 <p class="portfolio-gallery-item-paragraph">Aplikacja</p>
@@ -94,7 +93,7 @@
     </li>
     <li class="portfolio-images-last">
         <figure>
-        <img src="images/img13.jpg" alt="monitor ze stroną internetową" width="370" height="294">
+        <img class="photo" src="images/img13.jpg" alt="monitor ze stroną internetową" width="370" height="294">
         <figcaption class="portfolio-gallery-item">
             <b class="portfolio-gallery-item-bold">Inspiration has no Borders</b>
             <p class="portfolio-gallery-item-paragraph">Strona internetowa</p>
@@ -103,7 +102,7 @@
 </li>
     <li class="portfolio-images">
         <figure>
-            <img src="images/img14.jpg" alt="otwarta książka" width="370" height="294">
+            <img class="photo" src="images/img14.jpg" alt="otwarta książka" width="370" height="294">
             <figcaption class="portfolio-gallery-item">
                 <b class="portfolio-gallery-item-bold">Magazyn Limited Edition</b>
                 <p class="portfolio-gallery-item-paragraph">Dizajn</p>
@@ -112,7 +111,7 @@
     </li>
     <li class="portfolio-images">
         <figure>
-            <img src="images/img15.jpg" alt="papierowa zawieszka" width="370" height="294">
+            <img class="photo" src="images/img15.jpg" alt="papierowa zawieszka" width="370" height="294">
             <figcaption class="portfolio-gallery-item">
                 <b class="portfolio-gallery-item-bold">Projekt LAB</b>
                 <p class="portfolio-gallery-item-paragraph">Marketing</p>
@@ -121,7 +120,7 @@
     </li>
     <li class="portfolio-images-last">
         <figure>
-            <img src="images/img16.jpg" alt="dłonie na klawiaturze laptopa" width="370" height="294">
+            <img class="photo" src="images/img16.jpg" alt="dłonie na klawiaturze laptopa" width="370" height="294">
             <figcaption class="portfolio-gallery-item">
                 <b class="portfolio-gallery-item-bold">Growing Business</b>
                 <p class="portfolio-gallery-item-paragraph">Aplikacja</p>
@@ -133,17 +132,27 @@
 </div>
 </main>
 <!--FOOTER-->
-<footer class="end-of-page">
-            <address>
-                <a class="logo-footer" href="index.html"><span class="logo-span">Web</span>Studio</a>
-                
-                <ul class="footer-list">
-                <li class="footer-list-item-paragraph"><p>m. Warszawa, Aleje Jerozolimskie 21</p></li>   
-                <li class="footer-list-item-mail"><a class="footer-list-item-mail-link" href="mailto:info@example.com">info@example.com</a></li>
-                <li class="footer-list-item"><a class="footer-list-item-tel-link"href="tel:+48111111111">+48 111 111 111</a></li>
-                </ul>
-            </address>
-</footer>
+    <footer class="end-of-page">
+        <div class="container">
+            <section class="section-footer">
+    
+                <address class="first-footer">
+                    <a class="logo-footer" href="index.html"><span class="logo-span">Web</span>Studio</a>
+    
+                    <ul class="footer-list">
+                        <li class="footer-list-item-paragraph">
+                            <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+                        </li>
+                        <li class="footer-list-item"><a class="footer-list-item-mail-link"
+                                href="mailto:info@example.com">info@example.com</a></li>
+                        <li class="footer-list-item"><a class="footer-list-item-tel-link" href="tel:+48111111111">+48 111
+                                111 111</a></li>
+                    </ul>
+                </address>
+            </section>
+        </div>
+    
+    </footer>
 </div>
 </body>
 

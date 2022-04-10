@@ -486,7 +486,7 @@ margin-left: 215px;
 /*=======================================PORTFOLIO======================================================*/
 .button-item-list-first-child
 {
-  margin-left: 510px;
+  margin-left: 0;
   margin-right: 0;
 }
 .button-item-list
@@ -499,7 +499,9 @@ margin-left: 215px;
 display: flex;
 list-style-type: none;
 margin-top: 100px;
+justify-content:center
 }
+
 .button-item-first-child
 {
     background-color: var(--white-color);
@@ -509,6 +511,7 @@ margin-top: 100px;
     letter-spacing: 0.03em;
     font-weight: 500;
     border-color: var(--third-block-background-color);
+    
 }
 
 .button-item-first-child:hover
@@ -529,9 +532,6 @@ margin-top: 100px;
   font-weight: 500;
   margin-left: 8px;
   border-color: var(--third-block-background-color);
-
-  
-  
 }
 .button-item:hover 
 {
@@ -552,22 +552,11 @@ margin-top: 100px;
   display: flex;
   flex-wrap:wrap;
   list-style-type: none;
-  margin-top: 56px;
-  flex-basis: calc(100% / 3- 30px);
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 
-}
-.portfolio-images-last
-{
- margin-right: 30;
- margin-left: 0;
- margin-top: 30px;
-}
-.portfolio-images
-{
-  margin-right: 30px;
-  margin-left: 0px;
-  margin-top: 30px;
-}
+
 .portfolio-gallery-item 
 { 
   font-weight: 700;
@@ -588,11 +577,7 @@ margin-top: 100px;
 {
   margin-right: 0;
 }
-.photo
-{
-  
-  margin-left: 30px;
-}
+
 .portfolio-gallery-item-bold
 {
   font-weight: 700;
@@ -600,8 +585,10 @@ margin-top: 100px;
   line-height: 2;
   letter-spacing: 0.06em;
   margin-left: 24px;
-  
-
+}
+.photo
+{
+  margin-top: 30px;
 }
 .portfolio-gallery-item-paragraph 
 {
@@ -611,7 +598,7 @@ letter-spacing: 0.03em;
 color: var(--third-color);
 font-weight: 400;
 font-family: var(--main-font);
-margin-bottom: 50px;
+margin-bottom: 20px;
 margin-left: 24px;
 }
 .footer-list-item-mail-link{
@@ -631,7 +618,6 @@ margin-left: 24px;
     width: 1200px;
     margin: 0 auto;
     padding: 0;
-    border: 5px solid black;
 }
 .section-header
 {
@@ -652,6 +638,7 @@ margin-left: 24px;
 {
   width: 1600px;
   margin: 0;
+  background-color:var(--third-block-background-color)
 }
 .third-header-display
 {
@@ -705,8 +692,4 @@ margin-left: 24px;
 .first-nav-item-portfolio
 {
   margin-left: 46px;
-}
-.second-section-portfolio
-{
-  width: 1600px;
 }
