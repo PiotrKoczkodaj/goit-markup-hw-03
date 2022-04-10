@@ -343,7 +343,7 @@ ul
   display: flex;
   list-style-type: none;
   margin-top: 50px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   justify-content: space-between;
    
 } 
