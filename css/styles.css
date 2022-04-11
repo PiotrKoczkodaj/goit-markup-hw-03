@@ -6,7 +6,6 @@
 body {
   font-family: var(--main-font);
   color: var(--main-color);
-  max-width: 1600px;
   padding: 0;
   margin: 0 auto;
 
@@ -58,11 +57,7 @@ ul
   padding: 0;
   margin: 0;
 }
-.first-block {
-  background-color: var(--background-color);
-  width: 1600px;
 
-}
 
 
 /*==================================HEADER====================================*/
@@ -179,42 +174,32 @@ ul
 /*=======================================END OF HEADER==================================================*/
 
 /*=======================================MAIN CONTAINER=================================================*/
-.first-block .container
-{
-  width: 1600px;
-  background-color:var(--background-color)
-}
+
 .text-header {
-  text-align: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
-  padding-bottom: 30px;
-  padding-left: 452px;
-  padding-right: 452px;
+  width: 700px; 
+  display: flex;
+  align-items: center;
 }
 .button-top {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  text-align: center;
   cursor: pointer;
   background-color: var(--mark-color);
   color: var(--white-color);
-  margin-left: 700px;
-  margin-right: 700px;
-  margin-top: 30px;
-  margin-bottom: 200px;
   width: 200px;
   height: 50px;
+  display: flex;
+  justify-content: center;
 }
 .second-block-list-item .second-block-list-item-title 
 {
@@ -240,9 +225,11 @@ ul
     text-transform: uppercase;
     color: var(--main-color);
     margin-top: 94px;
-    justify-content: flex-start;
-    
-    
+    justify-content: flex-start;        
+}
+.end-of-page
+{
+  background-color: var(--background-color)
 }
 .second-block-list-item 
 {
@@ -305,7 +292,11 @@ ul
   margin-bottom: 94px;
   display: flex;
 }
-
+.first-block
+{
+  background-color:var(--background-color);
+  height: 600px;
+}
 .first-gallery-index-item
 {
   margin-left: 30px;
@@ -319,7 +310,7 @@ ul
   letter-spacing: 0.03em;
   padding-top: 94px;
   display: flex;
- justify-content: center;
+  justify-content: center;
  
   
 }
@@ -345,13 +336,9 @@ ul
   margin-top: 50px;
   padding-bottom: 94px;
   justify-content: space-between;
-   
 } 
 
-.second-block
-{
-  width: 1200px;
-}
+
 .gallery-list-item
 {
 margin-left: 0;
@@ -498,7 +485,7 @@ margin-left: 215px;
 {
 display: flex;
 list-style-type: none;
-margin-top: 100px;
+padding-top: 100px;
 justify-content:center
 }
 
@@ -619,24 +606,16 @@ margin-left: 24px;
     margin: 0 auto;
     padding: 0;
 }
-.section-header
-{
-  width: 1600px;
-  display: flex;
-}
-.section-main
-{
-    width: 1600px;     
-}
+
+
 .section-footer
 {
- width: 1600px;
- margin-right: 0;
  
+ margin-right: 0;
 }
 .third-section
 {
-  width: 1600px;
+  
   margin: 0;
   background-color:var(--third-block-background-color)
 }
@@ -644,11 +623,6 @@ margin-left: 24px;
 {
   display: flex;
   justify-content: center;
-}
-.end-of-page 
-{ 
-  background-color: var(--background-color) ;
-  
 }
 .portfolio-header-section
 {
