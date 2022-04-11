@@ -47,6 +47,7 @@ h1,h2,h3,h4{
   margin: 0;
   padding: 0;
 }
+
 p
 {
   margin: 0;
@@ -185,6 +186,8 @@ ul
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto; 
+  display: flex;
+  justify-content: center;
   width: 696px;
 }
 .button-top {
@@ -199,14 +202,9 @@ ul
   height: 50px; 
   display: block;
   margin: 0 auto;
+  
 }
-.first-block .container
-.first-block .container
-{
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
+
 .second-block-list-item .second-block-list-item-title 
 {
   font-weight: 700;
@@ -299,12 +297,16 @@ ul
   display: flex;
 }
 .first-block
-{
+{ 
   background-color:var(--background-color);
   height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding:200px 0 200px 0 
+
+}
+.first-block .text-header
+{
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 .first-gallery-index-item
 {
